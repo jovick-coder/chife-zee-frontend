@@ -1,0 +1,96 @@
+.TopNavComponent {
+  // border: solid 1px red;
+  height: 70px;
+  display: flex;
+  // justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, );
+  color: #fff;
+
+  justify-content: space-around;
+
+  .logo {
+    width: 50px;
+    height: 50px;
+    // border: 1px solid;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    // border: solid 1px;
+
+    li {
+      padding: 10px;
+
+
+      a {
+        color: yellow;
+        text-decoration: none;
+        font-weight: 600;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        height: 70px;
+        // border: solid 1px;
+      }
+
+    }
+  }
+
+  .button-div {
+
+    display: flex;
+    align-items: center;
+    // border: solid 1px;
+
+    button {
+      background-color: green;
+      color: #fff;
+      border: none;
+      height: 40px;
+      width: 150px;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 20px;
+    }
+  }
+}
+
+.CartButton {
+  position: relative;
+
+
+  .count {
+    // border: solid 1px;
+    position: absolute;
+    right: 10px;
+    bottom: 0px;
+    height: 18px;
+    min-width: 10px;
+    padding: 0 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(235, 235, 0);
+    color: #000;
+    font-weight: 600;
+    font-size: 12px;
+    // padding: 2px;
+    border-radius: 10px;
+    // font-size: 10px;
+  }
+
+  svg {
+    // padding: 0 10px;
+    font-size: 30px;
+    // border: solid 1px;
+    margin: auto 20px;
+  }
+
+}
