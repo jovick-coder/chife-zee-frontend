@@ -2,6 +2,9 @@
   // border: solid 1px red;
   height: 70px;
   display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
   // justify-content: center;
   align-items: center;
   background-color: rgba(0, 0, 0, );
@@ -50,21 +53,23 @@
     button {
       background-color: green;
       color: #fff;
-      border: none;
-      height: 40px;
-      width: 150px;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      border-radius: 20px;
     }
   }
 }
 
+button.fancy {
+  border: none;
+  height: 40px;
+  width: 150px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
 .CartButton {
   position: relative;
-
 
   .count {
     // border: solid 1px;
