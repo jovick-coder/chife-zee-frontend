@@ -5,6 +5,7 @@ import { FaCaretDown, FaShoppingBag } from "react-icons/fa";
 function HeroComponent() {
   return (
     <div className="HeroComponent">
+      <div className="cover"></div>
       <div className="text-div">
         <p>ENJOY YOUR MEAL</p>
         <h1>
