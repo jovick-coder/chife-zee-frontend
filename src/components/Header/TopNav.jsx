@@ -26,7 +26,7 @@ export default function TopNavComponent() {
       </ul>
       <div className="button-div">
         <CartButton />
-        <button>Sing in</button>
+        <button className="fancy">Sing in</button>
       </div>
     </div>
   );
