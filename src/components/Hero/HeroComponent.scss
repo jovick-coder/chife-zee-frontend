@@ -1,52 +1,52 @@
-    .HeroComponent {
-      background-image: url('../../assets/pizza-hero.jpg');
-      background-repeat: no-repeat;
-      background-size: 100%;
-      height: 100vh;
-      max-height: 700px;
-      border: solid 1px red;
-      background-position: 0 0;
-      margin-top: 70px;
-      display: flex;
+.HeroComponent {
+  background-image: url("../../assets/pizza-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 80vh;
+  max-height: 700px;
+  // border: solid 1px red;
+  background-position: 0 0;
+  margin-top: 70px;
+  display: flex;
 
-      .text-div {
-        // border: solid 1px;
-        margin: auto 0;
-        margin-left: auto;
+  .text-div {
+    // border: solid 1px;
+    margin: auto 0;
+    margin-left: auto;
 
-        height: 400px;
-        width: 550px;
-        color: rgb(250, 250, 0);
-        text-shadow: 1px 1px 3px rgb(45, 45, 45);
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        // align-items: center;
+    height: 400px;
+    width: 550px;
+    color: rgb(250, 250, 0);
+    text-shadow: 1px 1px 3px rgb(45, 45, 45);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // align-items: center;
 
-        .red-text {
-          color: rgb(242, 34, 34);
-        }
+    .red-text {
+      color: rgb(242, 34, 34);
+    }
 
-        p {
-          font-size: 30px;
-          padding: 0;
-          margin: 0;
-          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        }
+    p {
+      font-size: 30px;
+      padding: 0;
+      margin: 0;
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    }
 
-        h1 {
-          margin: 0;
-          font-size: 80px;
-        }
+    h1 {
+      margin: 0;
+      font-size: 80px;
+    }
 
-        button {
-          background-color: rgb(242, 34, 34);
-          color: #fff;
+    button {
+      background-color: rgb(242, 34, 34);
+      color: #fff;
 
-          svg {
-            margin: 0 5px;
-          }
-
-        }
+      svg {
+        margin: 0 5px;
       }
     }
+  }
+}
